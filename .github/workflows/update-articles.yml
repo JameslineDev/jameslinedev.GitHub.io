@@ -20,8 +20,8 @@ jobs:
 
       - name: Commit to the repo
         run: |
-          git config --global user.name 'Bruno Drugowick'
-          git config --global user.email 'brunodrugowick@users.noreply.github.com'
+          git config --global user.name 'JameslineDev'
+          git config --global user.email 'jameslinedev.github.com'
           git add .
           git commit -am "Update articles list"
           git push
